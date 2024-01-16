@@ -68,7 +68,7 @@ nav {
     color: #fff;
 }
 
-.banner-title h3{
+.banner-title h3 {
     font-size: 4rem;
     font-weight: 800;
     padding-top: 106px;
@@ -87,40 +87,258 @@ nav {
 .banner-input-frame {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    padding: 16px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
-    margin-top: 48px;
     width: 800px;
-    height: 60px;
+    height: 84px;
+    margin-top: 64px;
+    margin-left: 150px;
+    padding-left: 40px;
 }
-
 #input{
-    height: 30px;
-    width: 100px;
-    justify-content: center;
-    border: #fff;
-    border-radius: 5px;
+    width: 174px;
+height: 40px;
+border-radius: 8px;
+background: #FFF;
 }
 .btn-primary{
-    height: 30px;
-    width: 100px;
-    justify-content: center;
-    border: #fff;
-    border-radius: 5px;
+    width: 174px;
+height: 45px;
 }
 
+/* popular section */
+.popular-container {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    gap: 53px;
+}
 
+.popular-items {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.popular-title {
+    color: #131318;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
 
+.popular-details {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: .90rem;
+    font-weight: 400;
+}
 
+.popular-details ul {
+    gap: 16px;
+}
+
+.popular-details ul li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.popular-img img {
+    width: 385px;
+    height: 424px;
+    border-radius: 16px;
+}
+
+.popular-items button {
+    width: 174px;
+    height: 52px;
+}
+
+/* simple banner */
+.simple-banner {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 100px;
+}
+
+.simple-banner-title {
+    color: #131318;
+    width: 448px;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.simple-banner-description {
+    color: #5A5A5D;
+    width: 532px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.point-1 {
+    color: #131318;
+    width: 518px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.point-2 {
+    color: #131318;
+    width: 518px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.simple-banner-img img {
+    width: 485px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.simple-banner-img h3 {
+    color: #FFF;
+    width: 276px;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+    left: 90px;
+}
+
+.simple-banner-container button {
+    width: 174px;
+    height: 52px;
+    margin-top: 33px;
+}
+
+/* newsletter section */
+.newsletter-section {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    padding-left: 40px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.newsletter hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-right: 40px;
+}
+
+#name {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 24px;
+}
+
+#email {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 16px;
+}
+
+button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 24px;
+}
+
+.discount img {
+    width: 570px;
+    height: 422px;
+    border-radius: 16px;
+}
+
+.save-badge {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 190px;
+    left: 230px;
+}
+
+.save-badge p {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.save-badge h4 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
 /* footer section style */
-footer{
-    
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 1349px;
+    height: 502px;
+    margin-left: -135px;
 }
 
-.footer-title{
-    align-content: center;
+.footer-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.footer-description {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 270px;
+    padding-right: 260px;
+    margin-top: 15px;
+}
+
+.footer-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icon {
+    margin-left: 633px;
+    margin-top: 33px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 100px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
 }
