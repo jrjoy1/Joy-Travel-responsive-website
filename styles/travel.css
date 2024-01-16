@@ -1,0 +1,126 @@
+/* font mulish from google */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Mulish:wght@300;400;700;800&family=Open+Sans:ital,wght@0,400;0,800;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+/* header styles  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 16.50px;
+}
+
+.nav-title-1 {
+    color: #FF5400;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.home-nav {
+    color: #FF5400;
+}
+
+.item-container ul li a {
+    text-decoration: none;
+    margin-left: 44px;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* banner section styles */
+.banner-container {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    width: 1070px;
+    height: 500px;
+}
+
+.banner-title {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title h3{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 106px;
+    text-align: center;
+}
+
+.banner-title p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 215px;
+    margin-top: -34px;
+    text-align: center;
+    width: 650px;
+}
+
+.banner-input-frame {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 48px;
+    width: 800px;
+    height: 60px;
+}
+
+#input{
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    border: #fff;
+    border-radius: 5px;
+}
+.btn-primary{
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    border: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* footer section style */
+footer{
+    
+}
+
+.footer-title{
+    align-content: center;
+}
